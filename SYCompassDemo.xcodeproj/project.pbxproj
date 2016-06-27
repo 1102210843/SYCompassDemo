@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A429C6691D20D04000B0A0AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A429C6681D20D04000B0A0AA /* main.m */; };
+		A429C66C1D20D04000B0A0AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A429C66B1D20D04000B0A0AA /* AppDelegate.m */; };
+		A429C66F1D20D04000B0A0AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A429C66E1D20D04000B0A0AA /* ViewController.m */; };
+		A429C6721D20D04000B0A0AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A429C6701D20D04000B0A0AA /* Main.storyboard */; };
+		A429C6741D20D04000B0A0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A429C6731D20D04000B0A0AA /* Assets.xcassets */; };
+		A429C6771D20D04000B0A0AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A429C6751D20D04000B0A0AA /* LaunchScreen.storyboard */; };
+		A429C6821D20D04000B0A0AA /* SYCompassDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A429C6811D20D04000B0A0AA /* SYCompassDemoTests.m */; };
+		A429C68D1D20D04000B0A0AA /* SYCompassDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A429C68C1D20D04000B0A0AA /* SYCompassDemoUITests.m */; };
+		A429C69C1D20D06B00B0A0AA /* SYCompassView.m in Sources */ = {isa = PBXBuildFile; fileRef = A429C69B1D20D06B00B0A0AA /* SYCompassView.m */; };
+		A429C69E1D20F81F00B0A0AA /* 指针.png in Resources */ = {isa = PBXBuildFile; fileRef = A429C69D1D20F81F00B0A0AA /* 指针.png */; };
+		A429C6A11D20FF9D00B0A0AA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A429C6A01D20FF9D00B0A0AA /* CoreLocation.framework */; };
+		A429C6A61D212AA900B0A0AA /* SYSensorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A429C6A51D212AA900B0A0AA /* SYSensorManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A429C67E1D20D04000B0A0AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A429C65C1D20D04000B0A0AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A429C6631D20D04000B0A0AA;
+			remoteInfo = SYCompassDemo;
+		};
+		A429C6891D20D04000B0A0AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A429C65C1D20D04000B0A0AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A429C6631D20D04000B0A0AA;
+			remoteInfo = SYCompassDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A429C6641D20D04000B0A0AA /* SYCompassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYCompassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A429C6681D20D04000B0A0AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A429C66A1D20D04000B0A0AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A429C66B1D20D04000B0A0AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A429C66D1D20D04000B0A0AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A429C66E1D20D04000B0A0AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A429C6711D20D04000B0A0AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A429C6731D20D04000B0A0AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A429C6761D20D04000B0A0AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A429C6781D20D04000B0A0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A429C67D1D20D04000B0A0AA /* SYCompassDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYCompassDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A429C6811D20D04000B0A0AA /* SYCompassDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCompassDemoTests.m; sourceTree = "<group>"; };
+		A429C6831D20D04000B0A0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A429C6881D20D04000B0A0AA /* SYCompassDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYCompassDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A429C68C1D20D04000B0A0AA /* SYCompassDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYCompassDemoUITests.m; sourceTree = "<group>"; };
+		A429C68E1D20D04000B0A0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A429C69A1D20D06B00B0A0AA /* SYCompassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCompassView.h; sourceTree = "<group>"; };
+		A429C69B1D20D06B00B0A0AA /* SYCompassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYCompassView.m; sourceTree = "<group>"; };
+		A429C69D1D20F81F00B0A0AA /* 指针.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "指针.png"; sourceTree = "<group>"; };
+		A429C6A01D20FF9D00B0A0AA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A429C6A41D212AA900B0A0AA /* SYSensorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSensorManager.h; sourceTree = "<group>"; };
+		A429C6A51D212AA900B0A0AA /* SYSensorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSensorManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A429C6611D20D04000B0A0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A429C6A11D20FF9D00B0A0AA /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A429C67A1D20D04000B0A0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A429C6851D20D04000B0A0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A429C65B1D20D04000B0A0AA = {
+			isa = PBXGroup;
+			children = (
+				A429C6A01D20FF9D00B0A0AA /* CoreLocation.framework */,
+				A429C6661D20D04000B0A0AA /* SYCompassDemo */,
+				A429C6801D20D04000B0A0AA /* SYCompassDemoTests */,
+				A429C68B1D20D04000B0A0AA /* SYCompassDemoUITests */,
+				A429C6651D20D04000B0A0AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A429C6651D20D04000B0A0AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A429C6641D20D04000B0A0AA /* SYCompassDemo.app */,
+				A429C67D1D20D04000B0A0AA /* SYCompassDemoTests.xctest */,
+				A429C6881D20D04000B0A0AA /* SYCompassDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A429C6661D20D04000B0A0AA /* SYCompassDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A429C69D1D20F81F00B0A0AA /* 指针.png */,
+				A429C66A1D20D04000B0A0AA /* AppDelegate.h */,
+				A429C66B1D20D04000B0A0AA /* AppDelegate.m */,
+				A429C66D1D20D04000B0A0AA /* ViewController.h */,
+				A429C66E1D20D04000B0A0AA /* ViewController.m */,
+				A429C69A1D20D06B00B0A0AA /* SYCompassView.h */,
+				A429C69B1D20D06B00B0A0AA /* SYCompassView.m */,
+				A429C6A41D212AA900B0A0AA /* SYSensorManager.h */,
+				A429C6A51D212AA900B0A0AA /* SYSensorManager.m */,
+				A429C6701D20D04000B0A0AA /* Main.storyboard */,
+				A429C6731D20D04000B0A0AA /* Assets.xcassets */,
+				A429C6751D20D04000B0A0AA /* LaunchScreen.storyboard */,
+				A429C6781D20D04000B0A0AA /* Info.plist */,
+				A429C6671D20D04000B0A0AA /* Supporting Files */,
+			);
+			path = SYCompassDemo;
+			sourceTree = "<group>";
+		};
+		A429C6671D20D04000B0A0AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A429C6681D20D04000B0A0AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A429C6801D20D04000B0A0AA /* SYCompassDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A429C6811D20D04000B0A0AA /* SYCompassDemoTests.m */,
+				A429C6831D20D04000B0A0AA /* Info.plist */,
+			);
+			path = SYCompassDemoTests;
+			sourceTree = "<group>";
+		};
+		A429C68B1D20D04000B0A0AA /* SYCompassDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A429C68C1D20D04000B0A0AA /* SYCompassDemoUITests.m */,
+				A429C68E1D20D04000B0A0AA /* Info.plist */,
+			);
+			path = SYCompassDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A429C6631D20D04000B0A0AA /* SYCompassDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A429C6911D20D04000B0A0AA /* Build configuration list for PBXNativeTarget "SYCompassDemo" */;
+			buildPhases = (
+				A429C6601D20D04000B0A0AA /* Sources */,
+				A429C6611D20D04000B0A0AA /* Frameworks */,
+				A429C6621D20D04000B0A0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYCompassDemo;
+			productName = SYCompassDemo;
+			productReference = A429C6641D20D04000B0A0AA /* SYCompassDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A429C67C1D20D04000B0A0AA /* SYCompassDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A429C6941D20D04000B0A0AA /* Build configuration list for PBXNativeTarget "SYCompassDemoTests" */;
+			buildPhases = (
+				A429C6791D20D04000B0A0AA /* Sources */,
+				A429C67A1D20D04000B0A0AA /* Frameworks */,
+				A429C67B1D20D04000B0A0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A429C67F1D20D04000B0A0AA /* PBXTargetDependency */,
+			);
+			name = SYCompassDemoTests;
+			productName = SYCompassDemoTests;
+			productReference = A429C67D1D20D04000B0A0AA /* SYCompassDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A429C6871D20D04000B0A0AA /* SYCompassDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A429C6971D20D04000B0A0AA /* Build configuration list for PBXNativeTarget "SYCompassDemoUITests" */;
+			buildPhases = (
+				A429C6841D20D04000B0A0AA /* Sources */,
+				A429C6851D20D04000B0A0AA /* Frameworks */,
+				A429C6861D20D04000B0A0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A429C68A1D20D04000B0A0AA /* PBXTargetDependency */,
+			);
+			name = SYCompassDemoUITests;
+			productName = SYCompassDemoUITests;
+			productReference = A429C6881D20D04000B0A0AA /* SYCompassDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A429C65C1D20D04000B0A0AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = sunyu;
+				TargetAttributes = {
+					A429C6631D20D04000B0A0AA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A429C67C1D20D04000B0A0AA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A429C6631D20D04000B0A0AA;
+					};
+					A429C6871D20D04000B0A0AA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A429C6631D20D04000B0A0AA;
+					};
+				};
+			};
+			buildConfigurationList = A429C65F1D20D04000B0A0AA /* Build configuration list for PBXProject "SYCompassDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A429C65B1D20D04000B0A0AA;
+			productRefGroup = A429C6651D20D04000B0A0AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A429C6631D20D04000B0A0AA /* SYCompassDemo */,
+				A429C67C1D20D04000B0A0AA /* SYCompassDemoTests */,
+				A429C6871D20D04000B0A0AA /* SYCompassDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A429C6621D20D04000B0A0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A429C69E1D20F81F00B0A0AA /* 指针.png in Resources */,
+				A429C6771D20D04000B0A0AA /* LaunchScreen.storyboard in Resources */,
+				A429C6741D20D04000B0A0AA /* Assets.xcassets in Resources */,
+				A429C6721D20D04000B0A0AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A429C67B1D20D04000B0A0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A429C6861D20D04000B0A0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A429C6601D20D04000B0A0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A429C66F1D20D04000B0A0AA /* ViewController.m in Sources */,
+				A429C6A61D212AA900B0A0AA /* SYSensorManager.m in Sources */,
+				A429C66C1D20D04000B0A0AA /* AppDelegate.m in Sources */,
+				A429C6691D20D04000B0A0AA /* main.m in Sources */,
+				A429C69C1D20D06B00B0A0AA /* SYCompassView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A429C6791D20D04000B0A0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A429C6821D20D04000B0A0AA /* SYCompassDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A429C6841D20D04000B0A0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A429C68D1D20D04000B0A0AA /* SYCompassDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A429C67F1D20D04000B0A0AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A429C6631D20D04000B0A0AA /* SYCompassDemo */;
+			targetProxy = A429C67E1D20D04000B0A0AA /* PBXContainerItemProxy */;
+		};
+		A429C68A1D20D04000B0A0AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A429C6631D20D04000B0A0AA /* SYCompassDemo */;
+			targetProxy = A429C6891D20D04000B0A0AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A429C6701D20D04000B0A0AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A429C6711D20D04000B0A0AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A429C6751D20D04000B0A0AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A429C6761D20D04000B0A0AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A429C68F1D20D04000B0A0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A429C6901D20D04000B0A0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A429C6921D20D04000B0A0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYCompassDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyu.SYCompassDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A429C6931D20D04000B0A0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SYCompassDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyu.SYCompassDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A429C6951D20D04000B0A0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYCompassDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyu.SYCompassDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYCompassDemo.app/SYCompassDemo";
+			};
+			name = Debug;
+		};
+		A429C6961D20D04000B0A0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYCompassDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyu.SYCompassDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYCompassDemo.app/SYCompassDemo";
+			};
+			name = Release;
+		};
+		A429C6981D20D04000B0A0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYCompassDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyu.SYCompassDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYCompassDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A429C6991D20D04000B0A0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYCompassDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunyu.SYCompassDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYCompassDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A429C65F1D20D04000B0A0AA /* Build configuration list for PBXProject "SYCompassDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A429C68F1D20D04000B0A0AA /* Debug */,
+				A429C6901D20D04000B0A0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A429C6911D20D04000B0A0AA /* Build configuration list for PBXNativeTarget "SYCompassDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A429C6921D20D04000B0A0AA /* Debug */,
+				A429C6931D20D04000B0A0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A429C6941D20D04000B0A0AA /* Build configuration list for PBXNativeTarget "SYCompassDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A429C6951D20D04000B0A0AA /* Debug */,
+				A429C6961D20D04000B0A0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A429C6971D20D04000B0A0AA /* Build configuration list for PBXNativeTarget "SYCompassDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A429C6981D20D04000B0A0AA /* Debug */,
+				A429C6991D20D04000B0A0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A429C65C1D20D04000B0A0AA /* Project object */;
+}
