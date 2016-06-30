@@ -11,24 +11,19 @@
 
 #define toRad(X) (X*M_PI/180.0)
 #define toDeg(X) (X*180.0/M_PI)
-
 #define defaultRadius 100
 
 @interface SYCompassView () 
 
 @property (nonatomic, assign) CGFloat radius;
-
 @property (nonatomic, assign) CGPoint point;
+@property (nonatomic, assign) CGFloat scale;
 
 @property (nonatomic, weak) UIImageView *pointerImageView;
-
 @property (nonatomic, weak) UIView *dialView;
-
 @property (nonatomic, weak) UIView *horizontalView;
 
 @property (nonatomic, strong) SYSensorManager *manager;
-
-@property (nonatomic, assign) CGFloat scale;
 
 @end
 
@@ -94,7 +89,6 @@
     shapeLayer.fillColor = [UIColor clearColor].CGColor;
     shapeLayer.strokeColor = _calibrationColor.CGColor;
     shapeLayer.path = bezPath.CGPath;
-    
     [_dialView.layer addSublayer:shapeLayer];
     
 }

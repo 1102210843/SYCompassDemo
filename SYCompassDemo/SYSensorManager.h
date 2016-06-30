@@ -16,16 +16,11 @@
 @interface SYSensorManager : NSObject 
 
 + (instancetype)shared;
-
 - (void)startSensor;
-
 - (void)startGyroscope;
-
 - (void)stopSensor;
 
 @property (nonatomic, copy) void (^didUpdateHeadingBlock)(CLLocationDirection theHeading);
-
 @property (nonatomic, copy) void (^updateDeviceMotionBlock)(CMDeviceMotion *data);
-
 
 @end

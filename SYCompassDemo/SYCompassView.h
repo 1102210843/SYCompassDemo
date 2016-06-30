@@ -19,13 +19,9 @@
  */
 + (instancetype)sharedWithRect:(CGRect)rect radius:(CGFloat)radius;
 
-
 @property (nonatomic, strong) UIColor *textColor;
-
 @property (nonatomic, strong) UIColor *calibrationColor;
-
 @property (nonatomic, strong) UIColor *northColor;
-
 @property (nonatomic, strong) UIColor *horizontalColor;
 
 @end
