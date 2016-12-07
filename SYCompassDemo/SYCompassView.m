@@ -285,7 +285,6 @@
     _horizontalView.backgroundColor = [UIColor colorWithCGColor:CGColorCreateCopyWithAlpha(_horizontalColor.CGColor, 0.3)];
 }
 
-
 - (void)removeAll
 {
     for (UIView *view in self.subviews) {

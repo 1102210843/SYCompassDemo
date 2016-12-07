@@ -433,7 +433,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SYCompassDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunyu.SYCompassDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +446,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SYCompassDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sunyu.SYCompassDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +522,7 @@
 				A429C6931D20D04000B0A0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A429C6941D20D04000B0A0AA /* Build configuration list for PBXNativeTarget "SYCompassDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				A429C6961D20D04000B0A0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A429C6971D20D04000B0A0AA /* Build configuration list for PBXNativeTarget "SYCompassDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				A429C6991D20D04000B0A0AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

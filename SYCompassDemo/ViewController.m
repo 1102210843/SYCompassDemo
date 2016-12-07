@@ -26,7 +26,6 @@
     compassView.horizontalColor = [UIColor purpleColor];
     [self.view addSubview:compassView];
     
-    
 }
 
 - (void)didReceiveMemoryWarning {
